@@ -1,33 +1,5 @@
-/*
-Error: Invalid CSS after "@include": expected identifier, was ": '_core.scss';"
-        on line 1 of style.scss
+.hello {
+  margin-top: 0;
+}
 
-1: @include: '_core.scss';
-
-Backtrace:
-style.scss:1
-c:/Program Files/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.6/lib/sass/scss/parser.rb:1163:in `expected'
-c:/Program Files/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.6/lib/sass/scss/parser.rb:1099:in `expected'
-c:/Program Files/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.6/lib/sass/scss/parser.rb:1094:in `tok!'
-c:/Program Files/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.6/lib/sass/scss/parser.rb:235:in `include_directive'
-c:/Program Files/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.6/lib/sass/scss/parser.rb:219:in `special_directive'
-c:/Program Files/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.6/lib/sass/scss/parser.rb:194:in `directive'
-c:/Program Files/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.6/lib/sass/scss/parser.rb:660:in `block_child'
-c:/Program Files/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.6/lib/sass/scss/parser.rb:650:in `block_contents'
-c:/Program Files/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.6/lib/sass/scss/parser.rb:117:in `stylesheet'
-c:/Program Files/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.6/lib/sass/scss/parser.rb:42:in `parse'
-c:/Program Files/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.6/lib/sass/engine.rb:393:in `_to_tree'
-c:/Program Files/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.6/lib/sass/engine.rb:368:in `_render_with_sourcemap'
-c:/Program Files/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.6/lib/sass/engine.rb:285:in `render_with_sourcemap'
-c:/Program Files/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.6/lib/sass/exec/sass_scss.rb:396:in `run'
-c:/Program Files/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.6/lib/sass/exec/sass_scss.rb:62:in `process_result'
-c:/Program Files/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.6/lib/sass/exec/base.rb:52:in `parse'
-c:/Program Files/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.6/lib/sass/exec/base.rb:19:in `parse!'
-c:/Program Files/Prepros/resources/app/ruby/ruby_gems/gems/sass-3.4.6/bin/sass:13:in `<top (required)>'
-c:/Program Files/Prepros/resources/app/ruby/loader.rb:15:in `load'
-c:/Program Files/Prepros/resources/app/ruby/loader.rb:15:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"@include\": expected identifier, was \": '_core.scss';\"\A         on line 1 of style.scss\A \A 1: @include: '_core.scss';"; }
+/*# sourceMappingURL=style.css.map */
