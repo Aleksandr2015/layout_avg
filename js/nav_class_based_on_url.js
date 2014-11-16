@@ -2,7 +2,7 @@
 // Source: http://css-tricks.com/snippets/jquery/add-active-navigation-class-based-on-url/
 
 // HTML
-//<nav class="custom-avg">
+//<nav>
 //	<ul>
 //		<li><a href="/">Home</a></li>
 //		<li><a href="/about/">About</a></li>
@@ -12,6 +12,6 @@
 //</nav>
 
 // Script        
-$(function() {
-  $('nav.custom-avg a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
-});
+//$(function() {
+//  $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+//});
