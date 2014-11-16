@@ -1,0 +1,3 @@
+@for $i from 0 through 100 {
+    .mt#{$i}px { margin-top: $i + px; }
+}
