@@ -1,5 +1,8 @@
+//Bootstrap base if need
+@import "../vendor/bootstrap/print";
+//@import "../vendor/bootstrap/";
+
 /* base */
-@import "base/print";
 
 //avg sass
 @import "core";
