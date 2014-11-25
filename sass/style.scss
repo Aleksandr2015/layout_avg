@@ -1,8 +1,11 @@
-//Bootstrap base if need
-@import "../vendor/bootstrap/print";
-//@import "../vendor/bootstrap/";
+// -> Bootstrap base if need
+    // styles for print
+    @import "../vendor/bootstrap/print";
+    // disable the responsiveness
+    @import "../vendor/bootstrap/non-responsive";
 
-/* base */
+// -> Project styles
+//@import "/project/___";
 
 //avg sass
 @import "core";
