@@ -3,10 +3,12 @@
     @import "../vendor/bootstrap/print";
     // disable the responsiveness
     @import "../vendor/bootstrap/non-responsive";
-
-// -> Project styles
-//@import "/project/___";
+    //basic bootstrap reset
+    @import "../vendor/bootstrap/bootstrap_reset";    
 
 //avg sass
 @import "core";
+
+// -> Project styles
+//@import "/project/___";
 
