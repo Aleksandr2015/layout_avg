@@ -599,3 +599,35 @@
     //  clip: rect(0, 0, 0, 0);
     //  position: absolute;
     //}
+
+    // - Hover, active, focus 
+    @mixin hover {
+         &:hover, &:active, &:focus {@content}
+    }
+    // - - Usage (scss): - -
+    //    .some-class {
+    //        @include hover {
+    //                text-decoration:none;
+    //                border:none;
+    //        };
+    //    }
+    // - - Output: - -
+    //.some-class:hover, .some-class:active, .some-class:focus {
+    //  text-decoration: none;
+    //  border: none;
+    //}
+
+
+    // - Smooth
+    @mixin smooth($int: 0.3){
+        transition: all $int+s;
+    }
+    // - - Usage (scss): - -
+    //    .some-class {
+    //        @include smooth (2);
+    //    }    
+    // - - Output: - -
+    //.some-class {
+    //  transition: all 2s;
+    //}
+

@@ -1,8 +1,25 @@
+/* styles for @media print */
 @media print {
   .container {
     width: auto;
   }
 }
+/* basic bootstrap reset */
+/* disable scroll padding right on modal and put modal on other elements upper*/
+.modal-open {
+  padding-right: 0 !important;
+}
+
+.modal {
+  z-index: 999;
+  padding-right: 0 !important;
+}
+
+/* disable default bootstrap form input box shadow on focus */
+.form-control:focus {
+  box-shadow: none !important;
+}
+
 /* Template-specific stuff
  *
  * Customizations just for the template; these are not necessary for anything
@@ -121,19 +138,33 @@ body {
   background-color: transparent !important;
 }
 
-/* disable scroll padding right on modal and put modal on other elements upper*/
-.modal-open {
-  padding-right: 0 !important;
+/*
+* Browserhappy
+*/
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
 }
 
-.modal {
-  z-index: 999;
-  padding-right: 0 !important;
+/*
+* basic reset
+*/
+* {
+  outline: none;
 }
 
-/* disable default bootstrap form input box shadow on focus */
-.form-control:focus {
-  box-shadow: none !important;
+html, body {
+  padding: 0;
 }
+
+/* Project styles */
+/*
+* header
+*/
+/*
+* footer
+*/
 
 /*# sourceMappingURL=style.css.map */
